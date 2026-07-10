@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>watering_frequency</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-05 17:02:16</sys_created_on>
+        <sys_id>14d6989f83310310d08e53a6feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>watering_frequency</sys_name>
+        <sys_package display_value="Plant Parent" source="x_1840724_plant_0">b99eb73083714bd4d08e53a6feaad3ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Parent">b99eb73083714bd4d08e53a6feaad3ab</sys_scope>
+        <sys_update_name>sys_ui_policy_action_14d6989f83310310d08e53a6feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-05 17:02:16</sys_updated_on>
+        <table>x_1840724_plant_0_plant</table>
+        <ui_policy display_value="Lock Auto-Populated Fields">7f96909f83310310d08e53a6feaad3d9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=14d6989f83310310d08e53a6feaad3f6"/>
+</record_update>

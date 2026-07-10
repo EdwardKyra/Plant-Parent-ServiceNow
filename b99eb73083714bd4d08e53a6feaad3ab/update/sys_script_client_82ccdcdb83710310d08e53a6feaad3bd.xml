@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>care_profile</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto populate care details</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    var ga = new GlideAjax('x_1840724_plant_0.PlantCareUtils');
+    ga.addParam('sysparm_name', 'getCareDetails');
+    ga.addParam('sysparm_care_profile', newValue);
+
+    ga.getXMLAnswer(function(response) {
+        var data = JSON.parse(response);
+
+        g_form.setValue('sunlight', data.sunlight);
+        g_form.setValue('watering_frequency', data.watering_frequency);
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-05 17:29:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82ccdcdb83710310d08e53a6feaad3bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Auto populate care details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Parent" source="x_1840724_plant_0">b99eb73083714bd4d08e53a6feaad3ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Parent">b99eb73083714bd4d08e53a6feaad3ab</sys_scope>
+        <sys_update_name>sys_script_client_82ccdcdb83710310d08e53a6feaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-05 17:32:50</sys_updated_on>
+        <table>x_1840724_plant_0_plant</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

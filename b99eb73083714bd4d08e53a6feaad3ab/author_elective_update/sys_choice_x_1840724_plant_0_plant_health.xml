@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="health" table="x_1840724_plant_0_plant" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>health</element>
+            <name>x_1840724_plant_0_plant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 15:45:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>health</sys_name>
+            <sys_package display_value="Plant Parent" source="x_1840724_plant_0">b99eb73083714bd4d08e53a6feaad3ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Parent">b99eb73083714bd4d08e53a6feaad3ab</sys_scope>
+            <sys_update_name>sys_choice_x_1840724_plant_0_plant_health</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 15:45:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Healthy</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 15:45:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 15:45:17</sys_updated_on>
+            <value>Healthy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Okay</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 15:45:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 15:45:17</sys_updated_on>
+            <value>Okay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Needs Attention</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 15:45:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 15:45:17</sys_updated_on>
+            <value>Needs Attention</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sick</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 15:45:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 15:45:17</sys_updated_on>
+            <value>Sick</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dead</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 17:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 17:42:25</sys_updated_on>
+            <value>Dead</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>health</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recovering</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 17:46:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 17:46:06</sys_updated_on>
+            <value>Recovering</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="species" table="x_1840724_plant_0_plant_care_profile" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>species</element>
+            <name>x_1840724_plant_0_plant_care_profile</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:44:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>species</sys_name>
+            <sys_package display_value="Plant Parent" source="x_1840724_plant_0">b99eb73083714bd4d08e53a6feaad3ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Parent">b99eb73083714bd4d08e53a6feaad3ab</sys_scope>
+            <sys_update_name>sys_choice_x_1840724_plant_0_plant_care_profile_species</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:44:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monstera deliciosa</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant_care_profile</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:44:19</sys_updated_on>
+            <value>Monstera deliciosa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dracaena trifasciata</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant_care_profile</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:44:19</sys_updated_on>
+            <value>Dracaena trifasciata</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epipremnum aureum</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant_care_profile</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:44:19</sys_updated_on>
+            <value>Epipremnum aureum</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spathiphyllum wallisii</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant_care_profile</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:44:19</sys_updated_on>
+            <value>Spathiphyllum wallisii</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aloe vera</label>
+            <language>en</language>
+            <name>x_1840724_plant_0_plant_care_profile</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:44:19</sys_updated_on>
+            <value>Aloe vera</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

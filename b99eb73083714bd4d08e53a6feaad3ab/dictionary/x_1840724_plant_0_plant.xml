@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d22ffb7083714bd4d08e53a6feaad38c" label="Plant" max_length="40" name="x_1840724_plant_0_plant" type="collection">
+        <element label="Notes" max_length="255" name="notes" type="journal_input"/>
+        <element label="Species" max_length="40" name="species" type="string"/>
+        <element choice="1" label="Health" max_length="40" name="health" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Recovering" sequence="5" value="Recovering"/>
+                <element inactive_on_update="false" label="Sick" sequence="3" value="Sick"/>
+                <element inactive_on_update="false" label="Okay" sequence="1" value="Okay"/>
+                <element inactive_on_update="false" label="Needs Attention" sequence="2" value="Needs Attention"/>
+                <element inactive_on_update="false" label="Healthy" sequence="0" value="Healthy"/>
+                <element inactive_on_update="false" label="Dead" sequence="4" value="Dead"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sunlight" max_length="40" name="sunlight" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indirect light" sequence="2" value="Indirect light"/>
+                <element inactive_on_update="false" label="Shade" sequence="3" value="Shade"/>
+                <element inactive_on_update="false" label="Partial sun" sequence="1" value="Partial sun"/>
+                <element inactive_on_update="false" label="Full sun" sequence="0" value="Full sun"/>
+            </choice>
+        </element>
+        <element label="Watering frequency" max_length="255" name="watering_frequency" type="integer"/>
+        <element label="Last Watered" max_length="255" name="last_watered" type="glide_date_time"/>
+        <element label="Next Watering" max_length="255" name="next_watering" type="glide_date"/>
+        <element label="Care profile" max_length="32" name="care_profile" reference="x_1840724_plant_0_plant_care_profile" type="reference"/>
+        <element choice="1" label="Room" max_length="40" name="room" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Office" sequence="3" value="Office"/>
+                <element inactive_on_update="false" label="Bedroom" sequence="1" value="Bedroom"/>
+                <element inactive_on_update="false" label="Living Room" sequence="0" value="Living room"/>
+                <element inactive_on_update="false" label="Bathroom" sequence="4" value="Bathroom"/>
+                <element inactive_on_update="false" label="Kitchen" sequence="2" value="Kitchen"/>
+            </choice>
+        </element>
+        <element label="Plant Name" max_length="40" name="plant_name" type="string"/>
+        <index name="index">
+            <element name="care_profile"/>
+        </index>
+    </element>
+</database>

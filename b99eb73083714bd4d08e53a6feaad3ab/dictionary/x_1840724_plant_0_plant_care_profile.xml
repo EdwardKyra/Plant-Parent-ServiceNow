@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d51d31e283b58718d08e53a6feaad37b" label="Plant Care Profile" max_length="40" name="x_1840724_plant_0_plant_care_profile" type="collection">
+        <element choice="1" label="Sunlight" max_length="40" name="sunlight" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low light" sequence="1" value="Low light"/>
+                <element inactive_on_update="false" label="Bright indirect light" sequence="0" value="Bright indirect light"/>
+                <element inactive_on_update="false" label="Partial shade" sequence="2" value="Partial shade"/>
+                <element inactive_on_update="false" label="Full sun" sequence="3" value="Full sun"/>
+                <element inactive_on_update="false" label="Partial sun" sequence="4" value="Partial sun"/>
+            </choice>
+        </element>
+        <element label="Watering frequency" max_length="255" name="watering_frequency" type="integer"/>
+        <element label="Care notes" max_length="4000" name="care_notes" type="journal"/>
+        <element choice="1" label="Species" max_length="40" name="species" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monstera deliciosa" sequence="0" value="Monstera deliciosa"/>
+                <element inactive_on_update="false" label="Spathiphyllum wallisii" sequence="3" value="Spathiphyllum wallisii"/>
+                <element inactive_on_update="false" label="Dracaena trifasciata" sequence="1" value="Dracaena trifasciata"/>
+                <element inactive_on_update="false" label="Aloe vera" sequence="4" value="Aloe vera"/>
+                <element inactive_on_update="false" label="Epipremnum aureum" sequence="2" value="Epipremnum aureum"/>
+            </choice>
+        </element>
+        <element display="true" label="Common name" max_length="40" name="common_name" type="string"/>
+    </element>
+</database>
