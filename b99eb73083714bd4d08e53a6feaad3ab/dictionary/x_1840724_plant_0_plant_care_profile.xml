@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element label="Watering frequency" max_length="255" name="watering_frequency" type="integer"/>
-        <element label="Care notes" max_length="4000" name="care_notes" type="journal"/>
+        <element label="Care note" max_length="4000" name="care_notes" type="journal"/>
         <element choice="1" label="Species" max_length="40" name="species" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Monstera deliciosa" sequence="0" value="Monstera deliciosa"/>

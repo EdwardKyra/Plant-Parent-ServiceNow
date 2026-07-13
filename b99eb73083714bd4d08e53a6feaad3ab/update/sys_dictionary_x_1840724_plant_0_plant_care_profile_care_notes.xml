@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Care notes</column_label>
+        <column_label>Care note</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-03 16:39:48</sys_created_on>
-        <sys_name>Care notes</sys_name>
+        <sys_name>Care note</sys_name>
         <sys_package display_value="Plant Parent" source="x_1840724_plant_0">b99eb73083714bd4d08e53a6feaad3ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Parent">b99eb73083714bd4d08e53a6feaad3ab</sys_scope>
         <sys_update_name>sys_dictionary_x_1840724_plant_0_plant_care_profile_care_notes</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-03 16:39:50</sys_updated_on>
+        <sys_updated_on>2026-07-13 17:40:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
