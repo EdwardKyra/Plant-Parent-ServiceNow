@@ -11,14 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-03 16:39:48</sys_created_on>
-            <sys_mod_count>11</sys_mod_count>
+            <sys_mod_count>19</sys_mod_count>
             <sys_name>Care notes</sys_name>
             <sys_package display_value="Plant Parent" source="x_1840724_plant_0">b99eb73083714bd4d08e53a6feaad3ab</sys_package>
             <sys_policy/>
             <sys_scope display_value="Plant Parent">b99eb73083714bd4d08e53a6feaad3ab</sys_scope>
             <sys_update_name>sys_documentation_x_1840724_plant_0_plant_care_profile_care_notes_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-13 17:42:14</sys_updated_on>
+            <sys_updated_on>2026-07-16 18:52:06</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
